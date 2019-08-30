@@ -1,0 +1,21 @@
+{
+    "Rules": [
+        {
+            "Filter": {
+                "Prefix": ""
+            },
+            "Status": "Enabled",
+            "Transitions": [
+                {
+                    "Days": 14,
+                    "StorageClass": "GLACIER"
+                }
+            ],
+            "Expiration": {
+                "Days": 36500
+            },
+            "ID": "s3_elb_14days_logs"
+        }
+    ]
+}
+
